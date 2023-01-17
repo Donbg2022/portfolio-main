@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;600&display=swap');
 $primary-color: #002952;
 $secondary-color:#ffffff;
@@ -7,4 +8,5 @@ $secondary-color:#ffffff;
   margin: 0;
   padding: 0;
   color: $secondary-color;
+  font-family: 'Open Sans', sans-serif;
 }

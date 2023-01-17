@@ -1,9 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;600&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   color: #ffffff;
+  font-family: "Open Sans", sans-serif;
 }
 
 body {
@@ -83,6 +85,7 @@ body {
 }
 .homepage-laptop {
   width: 100vw;
+  padding-top: 7rem;
 }
 
 .material-symbols-outlined {
