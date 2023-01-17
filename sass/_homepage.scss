@@ -7,6 +7,23 @@ body{
 .nav{
   display: flex;
   flex-direction: column;
+  .logo{
+    font-family: 'Montserrat', sans-serif;
+    padding: .75rem;
+    font-size: x-large;
+
+
+    #first-name{
+      font-weight: 600;
+    }
+
+    #last-name{
+      font-weight: 200;
+      margin-left: -5px;
+    }
+    
+  }
+
   //css for displaying navbar responsive menu
 
   button{
@@ -48,9 +65,11 @@ body{
 
     ul{
       flex-direction: column;
-      column-gap: 10px;
+      text-align: center;
+      
       li{
         list-style-type: none;
+        padding: .5rem;
 
         &:hover{
           background-color: #236eba;
@@ -72,5 +91,18 @@ body{
 
 
  
+}
+
+.homepage{
+
+  &-text{
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 50%;
+  }
+
+  &-laptop{
+    width: 100vw;
+  }
 }
 
