@@ -1,0 +1,76 @@
+
+
+body{
+  background-color: $primary-color;
+}
+
+.nav{
+  display: flex;
+  flex-direction: column;
+  //css for displaying navbar responsive menu
+
+  button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    i{
+      font-size: x-large;
+      color: $secondary-color;
+      position: absolute;
+      top: .75rem;
+      right: .75rem;
+    }
+
+    .toggle-open{
+      display: block;
+
+    }
+    .toggle-close{
+      display: none;
+    }
+
+    &.open .toggle-open{
+      display: none;
+    }
+
+    &.open .toggle-close{
+      display: block;
+    }
+  }
+
+
+  &-links{
+    display: none;
+
+    ul{
+      flex-direction: column;
+      column-gap: 10px;
+      li{
+        list-style-type: none;
+
+        &:hover{
+          background-color: #236eba;
+        }
+        a{
+          color: $secondary-color;
+          text-decoration: none;
+          font-size: x-large;
+
+        }
+      }
+    }
+  }
+
+  &-links.open{
+    display: block;
+    
+  }
+
+
+ 
+}
+

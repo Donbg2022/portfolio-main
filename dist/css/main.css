@@ -1,1 +1,68 @@
-/*# sourceMappingURL=main.css.map */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+}
+
+body {
+  background-color: #002952;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+}
+.nav button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.nav button i {
+  font-size: x-large;
+  color: #ffffff;
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+}
+.nav button .toggle-open {
+  display: block;
+}
+.nav button .toggle-close {
+  display: none;
+}
+.nav button.open .toggle-open {
+  display: none;
+}
+.nav button.open .toggle-close {
+  display: block;
+}
+.nav-links {
+  display: none;
+}
+.nav-links ul {
+  flex-direction: column;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+.nav-links ul li {
+  list-style-type: none;
+}
+.nav-links ul li:hover {
+  background-color: #236eba;
+}
+.nav-links ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: x-large;
+}
+.nav-links.open {
+  display: block;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 48;
+}/*# sourceMappingURL=main.css.map */
