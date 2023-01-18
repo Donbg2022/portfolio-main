@@ -100,10 +100,22 @@ body{
     text-align: center;
     margin-top: 50%;
   }
-
+  
+  &-img{
+    padding-bottom: 5rem;
+    background-image: linear-gradient($primary-color 10% , rgb(77, 127, 163), $primary-color);
+  }
   &-laptop{
     width: 100vw;
     padding-top: 7rem;
+    position: relative;
+  }
+
+  h3{
+    color: black;
+    position: absolute;
+    top: 54%;
+    left: 16%;
   }
 }
 
