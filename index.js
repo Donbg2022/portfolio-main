@@ -31,3 +31,25 @@ const intervalId = setInterval(function() {
 }
 
 }, 100)
+
+
+//intersection observer for transitions
+
+// const observer = new IntersectionObserver((entries) => {
+//   entries.forEach((entry) => {
+//     if (entry.isIntersecting) {
+//       entry.target.classList.add('show')
+//     } 
+//   })
+// })
+
+const hiddenElementsLeft = document.querySelectorAll('.hidden-left')
+const hiddenElementsRight = document.querySelectorAll('.hidden-right')
+
+// hiddenElementsLeft.forEach((el) => observer.observe(el))
+// hiddenElementsRight.forEach((el) => observer.observe(el))
+
+window.addEventListener('scroll', () => {
+  hiddenElementsLeft[0].classList.add('show')
+  
+})
