@@ -106,19 +106,16 @@ body {
 .hidden-left {
   opacity: 0;
   transition: all 1s;
-  transform: translateX(-100%);
   filter: blur(10px);
 }
 
 .hidden-right {
   opacity: 0;
   transition: all 1s;
-  transform: translateX(100%);
   filter: blur(10px);
 }
 
 .show {
   opacity: 1;
-  transform: translateX(0);
   filter: blur(0);
 }/*# sourceMappingURL=main.css.map */

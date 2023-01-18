@@ -22,15 +22,15 @@ const typeString = '<Developer />'
 let count = 0
 
 //setinterval to add letter to html until count === length of string
-const intervalId = setInterval(function() {
-  typewriter.innerHTML += typeString[count]
-  count++
+// const intervalId = setInterval(function() {
+//   typewriter.innerHTML += typeString[count]
+//   count++
 
-  if(count === typeString.length){
-  clearInterval(intervalId)
-}
+//   if(count === typeString.length){
+//   clearInterval(intervalId)
+// }
 
-}, 100)
+// }, 100)
 
 
 //intersection observer for transitions
