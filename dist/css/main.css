@@ -109,10 +109,6 @@ body {
   left: 16%;
 }
 
-.material-symbols-outlined {
-  font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 48;
-}
-
 .hidden-left {
   opacity: 0;
   transition: all 1s;
@@ -127,6 +123,7 @@ body {
 }
 
 .hide {
+  opacity: 0;
   transition: all 1s;
   transform: translateX(200%);
   filter: blur(10px);
@@ -136,4 +133,10 @@ body {
   opacity: 1;
   transform: translateX(0);
   filter: blur(0);
+}
+
+.sub-title {
+  text-align: center;
+  font-size: x-large;
+  padding-bottom: 5rem;
 }/*# sourceMappingURL=main.css.map */
