@@ -101,7 +101,15 @@ body{
     margin-top: 30%;
 
   }
-  
+  &-me{
+    position: absolute;
+    text-align: center;
+    top: 47%;
+    left: 10%;
+    img{
+      width: 250px;
+    }
+  }
   &-img{
     padding-bottom: 5rem;
     background-image: linear-gradient($primary-color 10% , rgb(77, 127, 163), $primary-color);
