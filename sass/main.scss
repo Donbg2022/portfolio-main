@@ -8,10 +8,11 @@
   'opsz' 48
 }
 
+
 .hidden-left{
   opacity: 0;
   transition: all 1s;
-  transform: translateY(500%);
+  transform: translateY(10%);
   filter: blur(10px);
 }
 .hidden-right{

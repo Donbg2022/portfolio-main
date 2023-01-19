@@ -81,7 +81,7 @@ body {
 .homepage-text {
   font-size: xx-large;
   text-align: center;
-  margin-top: 50%;
+  margin-top: 30%;
 }
 .homepage-img {
   padding-bottom: 5rem;
@@ -106,7 +106,7 @@ body {
 .hidden-left {
   opacity: 0;
   transition: all 1s;
-  transform: translateY(500%);
+  transform: translateY(10%);
   filter: blur(10px);
 }
 
