@@ -100,7 +100,7 @@ body {
 
 .projects-list .project-wrapper {
   text-align: center;
-  background-color: lightgray;
+  background-color: #cccccc;
   width: 90vw;
   margin: 1rem auto;
 }
