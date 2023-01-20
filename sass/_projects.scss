@@ -1,0 +1,32 @@
+.projects-list{
+
+  .project-wrapper{
+    text-align: center;
+    background-color: lightgray;
+    width: 90vw;
+    margin: 0 auto;
+
+    img{
+      width: 90vw;
+
+    }
+
+    .project-text{
+      text-align: left;
+
+      h3{
+        color: $primary-color;
+
+      }
+      p{
+        color: $primary-color;
+
+      }
+
+      button{
+        color: $primary-color;
+
+      }
+    }
+  }
+}
