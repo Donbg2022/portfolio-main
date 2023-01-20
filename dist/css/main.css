@@ -113,6 +113,7 @@ body {
 .projects-list .project-wrapper .project-text h3 {
   color: #002952;
   padding: 1rem;
+  font-size: larger;
 }
 .projects-list .project-wrapper .project-text p {
   color: #002952;
