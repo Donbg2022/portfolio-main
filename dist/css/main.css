@@ -102,7 +102,7 @@ body {
   text-align: center;
   background-color: lightgray;
   width: 90vw;
-  margin: 0 auto;
+  margin: 1rem auto;
 }
 .projects-list .project-wrapper img {
   width: 90vw;
@@ -112,12 +112,21 @@ body {
 }
 .projects-list .project-wrapper .project-text h3 {
   color: #002952;
+  padding: 1rem;
 }
 .projects-list .project-wrapper .project-text p {
   color: #002952;
+  padding: 0.5rem 1rem;
 }
-.projects-list .project-wrapper .project-text button {
-  color: #002952;
+.projects-list .project-wrapper .project-text .buttons {
+  text-align: center;
+  padding: 1rem;
+}
+.projects-list .project-wrapper .project-text .buttons button {
+  border: none;
+  background-color: #002952;
+  padding: 0.25rem 0.5rem;
+  font-size: large;
 }
 
 .hidden-left {
