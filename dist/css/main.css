@@ -81,26 +81,15 @@ body {
 .homepage-text {
   font-size: xx-large;
   text-align: center;
-  margin-top: 30%;
+  margin-top: 41%;
+  margin-bottom: 4rem;
 }
-.homepage-me {
-  position: absolute;
-  text-align: center;
-  top: 47%;
-  left: 50%;
-  margin-left: -125px;
+.homepage-images {
+  background: linear-gradient(#002952, rgb(77, 127, 163), #002952);
+  padding: 6rem 0 8rem 0;
 }
-.homepage-me img {
-  width: 250px;
-}
-.homepage-img {
-  padding-bottom: 5rem;
-  background-image: linear-gradient(#002952 10%, rgb(77, 127, 163), #002952);
-}
-.homepage-laptop {
+.homepage-images-laptop {
   width: 100vw;
-  padding-top: 7rem;
-  position: relative;
 }
 .homepage h3 {
   color: black;
@@ -113,12 +102,6 @@ body {
   opacity: 0;
   transition: all 1s;
   transform: translateX(-100%);
-  filter: blur(10px);
-}
-
-.hidden-right {
-  opacity: 0;
-  transition: all 1s;
   filter: blur(10px);
 }
 

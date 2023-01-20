@@ -49,7 +49,3 @@ const hideElementsRight = document.querySelector('.leave-right')
 // hiddenElementsLeft.forEach((el) => observer.observe(el))
 // hiddenElementsRight.forEach((el) => observer.observe(el))
 
-window.addEventListener('scroll', () => {
-  hiddenElementsLeft[0].classList.add('show')
-  hideElementsRight.classList.add('hide')
-})

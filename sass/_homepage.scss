@@ -98,29 +98,21 @@ body{
   &-text {
     font-size: xx-large;
     text-align: center;
-    margin-top: 30%;
+    margin-top: 41%;
+    margin-bottom: 4rem;
 
   }
-  &-me{
-    position: absolute;
-    text-align: center;
-    top: 47%;
-    left: 50%;
-    margin-left: -125px;
-    img{
-      width: 250px;
-    }
-  }
-  &-img{
-    padding-bottom: 5rem;
-    background-image: linear-gradient($primary-color 10% , rgb(77, 127, 163), $primary-color);
-  }
+
+  &-images{
+    background: linear-gradient($primary-color , rgb(77, 127, 163), $primary-color);
+    padding: 6rem 0 8rem 0;
+    
+  
   &-laptop{
     width: 100vw;
-    padding-top: 7rem;
-    position: relative;
-  }
 
+  }
+}
   h3{
     color: black;
     position: absolute;
