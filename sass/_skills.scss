@@ -1,18 +1,17 @@
 
 .skill-cards{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  // display: flex;
+  // flex-wrap: wrap;
+  // justify-content: center;
+  column-count: 2;
 
   .skills-wrapper{
     display: flex;
     flex-direction: column;
     align-items: center;
-    outline: 1px solid red;
     img{
       width: 150px;
       justify-content: start;
-      outline: 3px solid green;
     }
     p{
       text-align: center;

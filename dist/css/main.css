@@ -157,23 +157,53 @@ body {
 }
 
 .skill-cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  -moz-column-count: 2;
+       column-count: 2;
 }
 .skill-cards .skills-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
-  outline: 1px solid red;
 }
 .skill-cards .skills-wrapper img {
   width: 150px;
   justify-content: start;
-  outline: 3px solid green;
 }
 .skill-cards .skills-wrapper p {
   text-align: center;
+}
+
+.about-wrapper {
+  position: relative;
+}
+.about-wrapper::before {
+  content: "";
+  background-image: url("../../images/me.jpg");
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.5;
+}
+.about-wrapper .about-text {
+  position: relative;
+  padding: 1rem;
+}
+.about-wrapper .about-text h1 {
+  padding-bottom: 2rem;
+  font-size: xx-large;
+}
+.about-wrapper .about-text h3 {
+  padding-bottom: 1rem;
+}
+.about-wrapper .about-image {
+  text-align: center;
+  position: relative;
+}
+.about-wrapper .about-image img {
+  width: 300px;
 }
 
 .sub-title {

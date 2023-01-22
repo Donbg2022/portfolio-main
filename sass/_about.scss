@@ -1,0 +1,39 @@
+.about-wrapper{
+  position: relative;
+  
+
+  &::before {    
+    content: "";
+    background-image: url('../../images/me.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.5;
+}
+  .about-text{
+    position: relative;
+    padding: 1rem;
+    h1{
+      padding-bottom: 2rem;
+      font-size: xx-large;
+    }
+
+    h3{
+      padding-bottom: 1rem;
+    }
+
+    
+    
+  }
+  
+  .about-image{
+      text-align: center;
+      position: relative;
+    img{
+      width: 300px
+    }
+  }
+}
