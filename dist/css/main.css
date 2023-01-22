@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -83,6 +84,9 @@ body {
   text-align: center;
   margin-top: 41%;
   margin-bottom: 4rem;
+}
+.homepage-text h1 {
+  font-family: "Playfair Display", serif;
 }
 .homepage-images {
   background: linear-gradient(#002952, rgb(77, 127, 163), #002952);
@@ -184,11 +188,12 @@ body {
   padding-bottom: 1rem;
 }
 .about-wrapper .about-image {
+  padding-top: 1rem;
   text-align: center;
   position: relative;
 }
 .about-wrapper .about-image img {
-  width: 300px;
+  width: 100vw;
 }
 
 .contact-info {
