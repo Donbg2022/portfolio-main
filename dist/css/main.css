@@ -173,22 +173,7 @@ body {
   text-align: center;
 }
 
-.about-wrapper {
-  position: relative;
-}
-.about-wrapper::before {
-  content: "";
-  background-image: url("../../images/me.jpg");
-  background-size: cover;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 0.5;
-}
 .about-wrapper .about-text {
-  position: relative;
   padding: 1rem;
 }
 .about-wrapper .about-text h1 {
