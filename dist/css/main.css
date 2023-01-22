@@ -191,6 +191,28 @@ body {
   width: 300px;
 }
 
+.contact-info {
+  padding: 1rem;
+}
+
+.contact-form form div {
+  padding: 1rem;
+}
+.contact-form form div input, .contact-form form div textarea {
+  border: none;
+  background-color: #002952;
+  border-bottom: 1px solid #ffffff;
+}
+.contact-form form div input::-moz-placeholder, .contact-form form div textarea::-moz-placeholder {
+  color: #ffffff;
+}
+.contact-form form div input:-ms-input-placeholder, .contact-form form div textarea:-ms-input-placeholder {
+  color: #ffffff;
+}
+.contact-form form div input::placeholder, .contact-form form div textarea::placeholder {
+  color: #ffffff;
+}
+
 .sub-title {
   text-align: center;
   font-size: x-large;
