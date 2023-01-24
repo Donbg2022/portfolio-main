@@ -2,9 +2,13 @@
   //homepage
 
   .homepage{
-
+    &-text{
+      margin-top: 6rem;
+    }
     &-images{
       text-align: center;
+      padding-top: 2rem;
+
       img{
         width: 425px;
       }
@@ -47,4 +51,34 @@
     }
   }
 
+  //contact
+  .contact{
+    text-align: center;
+  }
+  .contact-info{
+    text-align: left;
+    margin: auto;
+    width: 50%;
+  }
+
+}
+
+
+@media (min-width: $tablet){
+  //homepage
+  .nav{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .nav-links{
+    display: flex;
+    ul{
+    display: flex;
+    flex-direction: row;
+    }
+
+  }
+  .responsive-menu-btn{
+    display: none;
+  }
 }

@@ -217,9 +217,13 @@ body {
   color: #ffffff;
 }
 
-@media (min-width: 426px) {
+@media (min-width: 425px) {
+  .homepage-text {
+    margin-top: 6rem;
+  }
   .homepage-images {
     text-align: center;
+    padding-top: 2rem;
   }
   .homepage-images img {
     width: 425px;
@@ -242,6 +246,30 @@ body {
   .about-image img {
     max-width: 425px;
     margin-left: 1rem;
+  }
+  .contact {
+    text-align: center;
+  }
+  .contact-info {
+    text-align: left;
+    margin: auto;
+    width: 50%;
+  }
+}
+@media (min-width: 768px) {
+  .nav {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .nav-links {
+    display: flex;
+  }
+  .nav-links ul {
+    display: flex;
+    flex-direction: row;
+  }
+  .responsive-menu-btn {
+    display: none;
   }
 }
 .sub-title {
