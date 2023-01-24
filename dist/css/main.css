@@ -84,6 +84,7 @@ body {
   text-align: center;
   margin-top: 41%;
   margin-bottom: 4rem;
+  min-height: 65px;
 }
 .homepage-text h1 {
   font-family: "Playfair Display", serif;
