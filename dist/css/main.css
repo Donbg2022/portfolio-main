@@ -190,8 +190,6 @@ body {
 }
 .about-wrapper .about-image {
   padding-top: 1rem;
-  text-align: center;
-  position: relative;
 }
 .about-wrapper .about-image img {
   width: 100vw;
@@ -219,7 +217,7 @@ body {
   color: #ffffff;
 }
 
-@media (min-width: 425px) {
+@media (min-width: 426px) {
   .homepage-images {
     text-align: center;
   }
@@ -237,6 +235,13 @@ body {
   }
   .projects-list .project-wrapper img {
     max-width: 300px;
+  }
+  .about-text {
+    max-width: 425px;
+  }
+  .about-image img {
+    max-width: 425px;
+    margin-left: 1rem;
   }
 }
 .sub-title {
