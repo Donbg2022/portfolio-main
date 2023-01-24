@@ -2,8 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
 $primary-color: #002952;
-
 $secondary-color:#ffffff;
+
+$mobileM: 425px;
+$tablet: 770px;
+$laptop: 1025px;
+$laptopLarge: 1440px;
 
 *{
   box-sizing: border-box;
