@@ -1,0 +1,34 @@
+@media (min-width: $mobileM){
+  //homepage
+
+  .homepage{
+
+    &-images{
+      text-align: center;
+      img{
+        width: 425px;
+      }
+      
+    }
+  }
+
+  //projects
+
+  .projects-list{
+    display: flex;
+    column-gap: 20px;
+    flex-wrap: wrap;
+
+    .project-wrapper{
+      max-width: 300px;
+
+      img{
+        max-width: 300px;
+      }
+    }
+  }
+
+
+  //skills
+  
+}

@@ -82,7 +82,7 @@ body {
 .homepage-text {
   font-size: xx-large;
   text-align: center;
-  margin-top: 41%;
+  margin-top: 8.5rem;
   margin-bottom: 4rem;
   min-height: 65px;
 }
@@ -219,6 +219,26 @@ body {
   color: #ffffff;
 }
 
+@media (min-width: 425px) {
+  .homepage-images {
+    text-align: center;
+  }
+  .homepage-images img {
+    width: 425px;
+  }
+  .projects-list {
+    display: flex;
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+    flex-wrap: wrap;
+  }
+  .projects-list .project-wrapper {
+    max-width: 300px;
+  }
+  .projects-list .project-wrapper img {
+    max-width: 300px;
+  }
+}
 .sub-title {
   text-align: center;
   font-size: x-large;
