@@ -116,12 +116,12 @@ body {
   text-align: left;
 }
 .projects-list .project-wrapper .project-text h3 {
-  color: #002952;
+  color: black;
   padding: 1rem;
   font-size: larger;
 }
 .projects-list .project-wrapper .project-text p {
-  color: #002952;
+  color: black;
   padding: 0.5rem 1rem;
 }
 .projects-list .project-wrapper .project-text .buttons {
@@ -130,7 +130,7 @@ body {
 }
 .projects-list .project-wrapper .project-text .buttons button {
   border: none;
-  background-color: #002952;
+  background-color: rgb(16, 188, 188);
   padding: 0.25rem 0.5rem;
   font-size: large;
 }
@@ -179,7 +179,7 @@ body {
 }
 
 .about-wrapper .about-text {
-  padding: 1rem;
+  padding: 1rem 1rem 1rem 0;
 }
 .about-wrapper .about-text h1 {
   padding-bottom: 2rem;
@@ -187,9 +187,6 @@ body {
 }
 .about-wrapper .about-text h3 {
   padding-bottom: 1rem;
-}
-.about-wrapper .about-image {
-  padding-top: 1rem;
 }
 .about-wrapper .about-image img {
   width: 100vw;
@@ -202,6 +199,9 @@ body {
 .contact-form form div {
   padding: 1rem;
 }
+.contact-form form div p {
+  font-weight: 800;
+}
 .contact-form form div input, .contact-form form div textarea {
   border: none;
   background-color: #002952;
@@ -209,12 +209,15 @@ body {
 }
 .contact-form form div input::-moz-placeholder, .contact-form form div textarea::-moz-placeholder {
   color: #ffffff;
+  font-weight: 800;
 }
 .contact-form form div input:-ms-input-placeholder, .contact-form form div textarea:-ms-input-placeholder {
   color: #ffffff;
+  font-weight: 800;
 }
 .contact-form form div input::placeholder, .contact-form form div textarea::placeholder {
   color: #ffffff;
+  font-weight: 800;
 }
 
 @media (min-width: 425px) {
@@ -240,12 +243,18 @@ body {
   .projects-list .project-wrapper img {
     max-width: 300px;
   }
+  .about {
+    margin: auto;
+  }
   .about-text {
     max-width: 425px;
+    margin: auto;
+  }
+  .about-image {
+    text-align: center;
   }
   .about-image img {
     max-width: 425px;
-    margin-left: 1rem;
   }
   .contact {
     text-align: center;

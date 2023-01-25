@@ -38,15 +38,18 @@
 
 
   //about me
-
+  .about{
+    margin: auto;
+  }
   .about-text{
     max-width: 425px;
+    margin: auto;
   }
 
   .about-image{
+    text-align: center;
     img{
       max-width: 425px;
-      margin-left: 1rem;
 
     }
   }

@@ -1,15 +1,20 @@
+
+
 .contact-info{
   padding: 1rem;
 }
 
 .contact-form{
-
+  
   form{
 
 
     div{
       padding: 1rem;
-      
+      p{
+        font-weight: 800;
+      }
+
 
       input, textarea{
         border: none;
@@ -19,6 +24,7 @@
 
       input::placeholder, textarea::placeholder{
         color: $secondary-color;
+        font-weight: 800;
       }
     }
   }
