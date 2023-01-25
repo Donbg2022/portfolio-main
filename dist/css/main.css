@@ -253,7 +253,7 @@ body {
   .contact-info {
     text-align: left;
     margin: auto;
-    width: 50%;
+    width: 230px;
   }
 }
 @media (min-width: 768px) {
