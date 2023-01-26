@@ -16,8 +16,9 @@ body {
 .hero {
   background-image: url("../../images/laptopDesk.jpg");
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 70vh;
 }
 
 .nav {
@@ -89,14 +90,13 @@ body {
 .homepage-text {
   font-size: xx-large;
   text-align: center;
-  margin-top: 8.5rem;
-  margin-bottom: 4rem;
   min-height: 65px;
 }
 .homepage-text h1 {
   font-family: "Roboto", sans-serif;
   font-weight: 100;
   font-size: 50px;
+  color: white;
 }
 .homepage-images {
   background: linear-gradient(#002952, rgb(77, 127, 163), #002952);

@@ -8,8 +8,9 @@ body{
 .hero{
   background-image: url('../../images/laptopDesk.jpg');
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 70vh;
 }
 
 .nav{
@@ -106,14 +107,13 @@ body{
   &-text {
     font-size: xx-large;
     text-align: center;
-    margin-top: 8.5rem;
-    margin-bottom: 4rem;
     min-height: 65px;
     
     h1{
       font-family: 'Roboto', sans-serif;
       font-weight: 100;
       font-size: 50px;
+      color:white
     }
   }
 
