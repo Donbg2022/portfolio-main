@@ -101,8 +101,9 @@ body {
 .homepage-text h1 {
   font-family: "Roboto", sans-serif;
   font-weight: 100;
+  font-size: 50px;
   color: white;
-  background-color: rgba(169, 39, 39, 0.281);
+  background-color: rgba(0, 0, 0, 0.281);
 }
 .homepage-images {
   background: linear-gradient(#002952, rgb(77, 127, 163), #002952);
@@ -240,7 +241,6 @@ body {
 @media (min-width: 425px) {
   .homepage-text {
     margin-top: 6rem;
-    width: 450px;
   }
   .homepage-text h1 {
     font-size: 66px;
