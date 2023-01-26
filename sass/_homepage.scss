@@ -1,7 +1,15 @@
 
 
 body{
-  background-color: $primary-color;
+  background-color: lightgray;
+  
+}
+
+.hero{
+  background-image: url('../../images/laptopDesk.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
 .nav{
@@ -103,7 +111,9 @@ body{
     min-height: 65px;
     
     h1{
-      font-family: 'Playfair Display', serif;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 100;
+      font-size: 50px;
     }
   }
 

@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -10,7 +10,14 @@
 }
 
 body {
-  background-color: #002952;
+  background-color: lightgray;
+}
+
+.hero {
+  background-image: url("../../images/laptopDesk.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
 .nav {
@@ -87,7 +94,9 @@ body {
   min-height: 65px;
 }
 .homepage-text h1 {
-  font-family: "Playfair Display", serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 50px;
 }
 .homepage-images {
   background: linear-gradient(#002952, rgb(77, 127, 163), #002952);
