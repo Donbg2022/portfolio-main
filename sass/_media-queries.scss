@@ -4,6 +4,11 @@
   .homepage{
     &-text{
       margin-top: 6rem;
+      width: 450px;
+      
+      h1{
+        font-size: 66px;
+      }
     }
     &-images{
       text-align: center;
@@ -69,6 +74,11 @@
 
 @media (min-width: $tablet){
   //homepage
+  .homepage{
+    &-text{
+      margin-top: 10rem;
+    }
+  }
   .nav{
     flex-direction: row;
     justify-content: space-between;
@@ -83,5 +93,12 @@
   }
   .responsive-menu-btn{
     display: none;
+  }
+
+
+
+  .hero{
+    height: 85vh;
+
   }
 }

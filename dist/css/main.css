@@ -96,7 +96,8 @@ body {
   font-size: xx-large;
   text-align: center;
   min-height: 65px;
-  margin-top: 8rem;
+  margin: 8rem auto 8rem auto;
+  width: 320px;
 }
 .homepage-text h1 {
   font-family: "Roboto", sans-serif;
@@ -241,6 +242,10 @@ body {
 @media (min-width: 425px) {
   .homepage-text {
     margin-top: 6rem;
+    width: 450px;
+  }
+  .homepage-text h1 {
+    font-size: 66px;
   }
   .homepage-images {
     text-align: center;
@@ -284,6 +289,9 @@ body {
   }
 }
 @media (min-width: 768px) {
+  .homepage-text {
+    margin-top: 10rem;
+  }
   .nav {
     flex-direction: row;
     justify-content: space-between;
@@ -297,6 +305,9 @@ body {
   }
   .responsive-menu-btn {
     display: none;
+  }
+  .hero {
+    height: 85vh;
   }
 }
 .sub-title {
