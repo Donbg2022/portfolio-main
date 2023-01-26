@@ -71,6 +71,7 @@ body{
 
   &-links{
     display: none;
+    background-color: rgba(0, 0, 0, 0.771);
 
     ul{
       flex-direction: column;
@@ -108,12 +109,15 @@ body{
     font-size: xx-large;
     text-align: center;
     min-height: 65px;
+    margin-top: 8rem;
     
     h1{
       font-family: 'Roboto', sans-serif;
       font-weight: 100;
       font-size: 50px;
-      color:white
+      color:white;
+      background-color: rgba(0, 0, 0, 0.281);
+
     }
   }
 

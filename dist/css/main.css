@@ -66,6 +66,7 @@ body {
 }
 .nav-links {
   display: none;
+  background-color: rgba(0, 0, 0, 0.771);
 }
 .nav-links ul {
   flex-direction: column;
@@ -91,12 +92,14 @@ body {
   font-size: xx-large;
   text-align: center;
   min-height: 65px;
+  margin-top: 8rem;
 }
 .homepage-text h1 {
   font-family: "Roboto", sans-serif;
   font-weight: 100;
   font-size: 50px;
   color: white;
+  background-color: rgba(0, 0, 0, 0.281);
 }
 .homepage-images {
   background: linear-gradient(#002952, rgb(77, 127, 163), #002952);
