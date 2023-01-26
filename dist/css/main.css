@@ -94,7 +94,6 @@ body {
 }
 
 .homepage-text {
-  font-size: xx-large;
   text-align: center;
   min-height: 65px;
   margin: 8rem auto 8rem auto;
@@ -102,7 +101,6 @@ body {
 .homepage-text h1 {
   font-family: "Roboto", sans-serif;
   font-weight: 100;
-  font-size: 50px;
   color: white;
   background-color: rgba(0, 0, 0, 0.281);
 }
