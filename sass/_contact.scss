@@ -18,12 +18,12 @@
 
       input, textarea{
         border: none;
-        background-color: $primary-color;
-        border-bottom: 1px solid $secondary-color;
+        background-color: lightgray;
+        border-bottom: 1px solid black;
       }
 
       input::placeholder, textarea::placeholder{
-        color: $secondary-color;
+        color: black;
         font-weight: 800;
       }
     }
