@@ -298,6 +298,7 @@ body {
   }
   .nav-links {
     display: flex;
+    background-color: transparent;
   }
   .nav-links ul {
     display: flex;
