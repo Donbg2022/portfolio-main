@@ -303,14 +303,24 @@ body {
   }
 }
 @media (min-width: 1024px) {
+  .hero {
+    height: 100vh;
+  }
   .about-wrapper {
     display: flex;
+    justify-content: center;
+    background-color: rgb(209, 217, 226);
+    width: 60rem;
+    margin: auto;
   }
   .about-wrapper .about-text {
-    padding: 1rem 0;
+    padding: 4.5rem 1rem;
   }
   .about-wrapper .about-image {
-    margin-right: auto;
+    margin-right: 0;
+  }
+  .about-wrapper .about-image img {
+    height: 100%;
   }
 }
 .sub-title {

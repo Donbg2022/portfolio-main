@@ -108,18 +108,35 @@
     column-count: 4;
   }
 }
+
+
   @media (min-width: $laptop){
+    //homepage
+    .hero{
+      height: 100vh;
+    }
+
+    
     //about
 
     .about-wrapper{
       display: flex;
-
+      justify-content: center;
+      background-color: rgb(209, 217, 226);
+      width: 60rem;
+      margin: auto;
       .about-text{
-        padding: 1rem 0;
+        padding: 4.5rem 1rem;
+
       }
 
     .about-image{
-      margin-right: auto;
+      margin-right: 0;
+
+      img{
+        height: 100%;
+
+      }
     }
     }
   }
