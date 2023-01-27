@@ -9,6 +9,10 @@ $tablet: 768px;
 $laptop: 1024px;
 $laptopLarge: 1440px;
 
+
+html{
+  scroll-behavior: smooth;
+}
 *{
   box-sizing: border-box;
   margin: 0;
