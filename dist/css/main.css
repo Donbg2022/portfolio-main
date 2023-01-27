@@ -96,6 +96,7 @@ body {
 .homepage-text {
   text-align: center;
   min-height: 65px;
+  margin: 8rem auto 8rem auto;
 }
 .homepage-text h1 {
   font-family: "Roboto", sans-serif;
@@ -103,13 +104,6 @@ body {
   font-size: 50px;
   color: white;
   background-color: rgba(0, 0, 0, 0.281);
-}
-.homepage-images {
-  background: linear-gradient(#002952, rgb(77, 127, 163), #002952);
-  padding: 6rem 0 8rem 0;
-}
-.homepage-images-laptop {
-  width: 100vw;
 }
 .homepage h3 {
   color: black;
@@ -243,13 +237,6 @@ body {
   }
   .homepage-text h1 {
     font-size: 66px;
-  }
-  .homepage-images {
-    text-align: center;
-    padding-top: 2rem;
-  }
-  .homepage-images img {
-    width: 425px;
   }
   .projects-list {
     display: flex;
