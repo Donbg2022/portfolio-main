@@ -154,7 +154,7 @@ body {
 }
 
 .hidden-right {
-  opacity: 1;
+  opacity: 0;
   transition: all 1s;
   transform: translateX(100%);
   filter: blur(10px);
