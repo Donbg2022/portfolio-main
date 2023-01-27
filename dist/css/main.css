@@ -92,6 +92,7 @@ body {
   color: #ffffff;
   text-decoration: none;
   font-size: x-large;
+  display: block;
 }
 .nav-links.open {
   display: block;
