@@ -197,7 +197,7 @@ body {
   padding-bottom: 1rem;
 }
 .about-wrapper .about-image img {
-  width: 100vw;
+  max-width: 425px;
 }
 
 .contact-info {
@@ -260,9 +260,6 @@ body {
   .about-image {
     text-align: center;
   }
-  .about-image img {
-    max-width: 425px;
-  }
   .contact {
     text-align: center;
   }
@@ -303,6 +300,17 @@ body {
   .skill-cards {
     -moz-column-count: 4;
          column-count: 4;
+  }
+}
+@media (min-width: 1024px) {
+  .about-wrapper {
+    display: flex;
+  }
+  .about-wrapper .about-text {
+    padding: 1rem 0;
+  }
+  .about-wrapper .about-image {
+    margin-right: auto;
   }
 }
 .sub-title {

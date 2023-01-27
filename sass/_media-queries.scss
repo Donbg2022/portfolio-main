@@ -46,10 +46,7 @@
 
   .about-image{
     text-align: center;
-    img{
-      max-width: 425px;
-
-    }
+    
   }
 
   //contact
@@ -114,5 +111,15 @@
   @media (min-width: $laptop){
     //about
 
-    
+    .about-wrapper{
+      display: flex;
+
+      .about-text{
+        padding: 1rem 0;
+      }
+
+    .about-image{
+      margin-right: auto;
+    }
+    }
   }
