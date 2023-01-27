@@ -114,9 +114,10 @@ body {
 
 .projects-list .project-wrapper {
   text-align: center;
-  background-color: #cccccc;
+  background-color: rgba(0, 0, 0, 0.144);
   width: 90vw;
   margin: 1rem auto;
+  display: grid;
 }
 .projects-list .project-wrapper img {
   width: 90vw;
@@ -239,10 +240,9 @@ body {
     font-size: 66px;
   }
   .projects-list {
-    display: flex;
+    display: grid;
     -moz-column-gap: 20px;
          column-gap: 20px;
-    flex-wrap: wrap;
   }
   .projects-list .project-wrapper {
     max-width: 300px;
@@ -293,6 +293,12 @@ body {
   }
   .hero {
     height: 85vh;
+  }
+  .projects-list {
+    display: grid;
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+    grid-template-columns: 1fr 1fr;
   }
 }
 .sub-title {

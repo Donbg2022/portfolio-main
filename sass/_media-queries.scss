@@ -16,9 +16,8 @@
   //projects
 
   .projects-list{
-    display: flex;
+    display: grid;
     column-gap: 20px;
-    flex-wrap: wrap;
 
     .project-wrapper{
       max-width: 300px;
@@ -94,4 +93,18 @@
     height: 85vh;
 
   }
-}
+
+
+  //projects
+
+  .projects-list{
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+  }
+  }
+
+
+  @media (min-width: $laptop){
+    
+  }
