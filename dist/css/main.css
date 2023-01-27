@@ -173,10 +173,6 @@ body {
   filter: blur(0);
 }
 
-.skill-cards {
-  -moz-column-count: 2;
-       column-count: 2;
-}
 .skill-cards .skills-wrapper {
   display: flex;
   flex-direction: column;
@@ -250,6 +246,10 @@ body {
   .projects-list .project-wrapper img {
     max-width: 300px;
   }
+  .skill-cards {
+    -moz-column-count: 2;
+         column-count: 2;
+  }
   .about {
     margin: auto;
   }
@@ -299,6 +299,10 @@ body {
     -moz-column-gap: 20px;
          column-gap: 20px;
     grid-template-columns: 1fr 1fr;
+  }
+  .skill-cards {
+    -moz-column-count: 4;
+         column-count: 4;
   }
 }
 .sub-title {

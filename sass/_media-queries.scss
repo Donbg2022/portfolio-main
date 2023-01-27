@@ -30,7 +30,9 @@
 
 
   //skills
-  
+  .skill-cards{
+    column-count: 2;
+  }
 
 
   //about me
@@ -102,9 +104,15 @@
     column-gap: 20px;
     grid-template-columns: 1fr 1fr;
   }
+
+  //skills
+
+  .skill-cards{
+    column-count: 4;
   }
-
-
+}
   @media (min-width: $laptop){
+    //about
+
     
   }
