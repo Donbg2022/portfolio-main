@@ -54,9 +54,7 @@
     text-align: center;
   }
   .contact-info{
-    text-align: left;
-    margin: auto;
-    width: 230px;
+    
   }
 
 }
@@ -106,6 +104,24 @@
 
   .skill-cards{
     column-count: 4;
+  }
+
+  //contact
+
+  .contact{
+    display: flex;
+  }
+  .contact-info-wrapper{
+    min-width: 50%;
+  }
+  .contact-form{
+    min-width: 50%;
+
+    form{
+      &:nth-child(1){
+        padding-top: 15%;
+      }
+    }
   }
 }
 

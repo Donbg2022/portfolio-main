@@ -205,32 +205,71 @@ body {
   max-width: 425px;
 }
 
-.contact-info {
-  padding: 1rem;
+.contact {
+  margin-top: 7rem;
 }
 
+.contact-info-wrapper {
+  background-color: rgb(11, 12, 67);
+  padding: 5rem 1rem;
+  min-height: 250px;
+}
+.contact-info-wrapper .contact-text h1 {
+  color: white;
+  font-weight: 800;
+  font-size: x-large;
+  padding-bottom: 3rem;
+}
+.contact-info-wrapper .contact-info p {
+  color: white;
+  padding-bottom: 0.25rem;
+  font-weight: 900;
+}
+
+.contact-form form {
+  background-color: white;
+  min-height: 400px;
+}
+.contact-form form:nth-child(1) {
+  padding-top: 8%;
+}
 .contact-form form div {
-  padding: 1rem;
+  padding: 0.5rem;
+  text-align: center;
 }
 .contact-form form div p {
   font-weight: 800;
 }
 .contact-form form div input, .contact-form form div textarea {
-  border: none;
-  background-color: lightgray;
-  border-bottom: 1px solid black;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid black;
+  padding: 0.5rem;
+  min-width: 250px;
 }
 .contact-form form div input::-moz-placeholder, .contact-form form div textarea::-moz-placeholder {
   color: black;
-  font-weight: 800;
+  font-weight: 900;
 }
 .contact-form form div input:-ms-input-placeholder, .contact-form form div textarea:-ms-input-placeholder {
   color: black;
-  font-weight: 800;
+  font-weight: 900;
 }
 .contact-form form div input::placeholder, .contact-form form div textarea::placeholder {
   color: black;
-  font-weight: 800;
+  font-weight: 900;
+}
+.contact-form form .contact-button button {
+  min-width: 250px;
+  padding: 0.5rem;
+  background-color: rgb(11, 12, 67);
+  color: white;
+  border: none;
+}
+.contact-form form .contact-button button:hover {
+  background-color: rgb(22, 35, 117);
+}
+.contact-form form .contact-button button:active {
+  background-color: rgb(98, 96, 224);
 }
 
 @media (min-width: 425px) {
@@ -268,11 +307,6 @@ body {
   .contact {
     text-align: center;
   }
-  .contact-info {
-    text-align: left;
-    margin: auto;
-    width: 230px;
-  }
 }
 @media (min-width: 768px) {
   .homepage-text {
@@ -305,6 +339,18 @@ body {
   .skill-cards {
     -moz-column-count: 4;
          column-count: 4;
+  }
+  .contact {
+    display: flex;
+  }
+  .contact-info-wrapper {
+    min-width: 50%;
+  }
+  .contact-form {
+    min-width: 50%;
+  }
+  .contact-form form:nth-child(1) {
+    padding-top: 15%;
   }
 }
 @media (min-width: 1024px) {
