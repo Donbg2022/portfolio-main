@@ -122,28 +122,29 @@ body {
   background-color: rgb(255, 255, 255);
   width: 90vw;
   margin: 1rem auto;
-  display: grid;
+  display: flex;
+  flex-direction: column;
 }
 .projects-list .project-wrapper img {
   width: 90vw;
 }
-.projects-list .project-wrapper .project-text {
+.projects-list .project-wrapper .project-text-wrapper {
   text-align: left;
 }
-.projects-list .project-wrapper .project-text h3 {
+.projects-list .project-wrapper .project-text-wrapper h3 {
   color: black;
   padding: 1rem;
   font-size: larger;
 }
-.projects-list .project-wrapper .project-text p {
+.projects-list .project-wrapper .project-text-wrapper p {
   color: black;
   padding: 0.5rem 1rem;
 }
-.projects-list .project-wrapper .project-text .buttons {
+.projects-list .project-wrapper .project-text-wrapper .buttons {
   text-align: center;
   padding: 1rem;
 }
-.projects-list .project-wrapper .project-text .buttons button {
+.projects-list .project-wrapper .project-text-wrapper .buttons button {
   border: none;
   background-color: rgb(11, 12, 67);
   padding: 0.25rem 0.5rem;
@@ -279,15 +280,10 @@ body {
   .homepage-text h1 {
     font-size: 66px;
   }
-  .projects-list {
-    display: grid;
-    -moz-column-gap: 20px;
-         column-gap: 20px;
-  }
-  .projects-list .project-wrapper {
+  .project-wrapper {
     max-width: 300px;
   }
-  .projects-list .project-wrapper img {
+  .project-wrapper img {
     max-width: 300px;
   }
   .skill-cards {
@@ -330,11 +326,15 @@ body {
   .hero {
     height: 85vh;
   }
-  .projects-list {
-    display: grid;
-    -moz-column-gap: 20px;
-         column-gap: 20px;
-    grid-template-columns: 1fr 1fr;
+  .projects-list .project-wrapper {
+    display: flex;
+    flex-direction: row;
+    max-width: 1000px;
+  }
+  .projects-list .project-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
   .skill-cards {
     -moz-column-count: 4;

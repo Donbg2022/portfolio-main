@@ -14,19 +14,13 @@
   
 
   //projects
-
-  .projects-list{
-    display: grid;
-    column-gap: 20px;
-
     .project-wrapper{
       max-width: 300px;
-
       img{
         max-width: 300px;
       }
     }
-  }
+  
 
 
   //skills
@@ -93,11 +87,18 @@
 
 
   //projects
-
   .projects-list{
-    display: grid;
-    column-gap: 20px;
-    grid-template-columns: 1fr 1fr;
+  .project-wrapper{
+    display: flex;
+    flex-direction: row;
+    max-width: 1000px;
+    
+  }
+  .project-text-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
   }
 
   //skills

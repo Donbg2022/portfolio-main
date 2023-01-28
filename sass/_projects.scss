@@ -9,7 +9,9 @@
     background-color: rgb(255, 255, 255);
     width: 90vw;
     margin: 1rem auto;
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    
     
 
     img{
@@ -17,13 +19,14 @@
 
     }
 
-    .project-text{
+    .project-text-wrapper{
       text-align: left;
 
       h3{
         color: black;
         padding: 1rem;
         font-size: larger;
+        
 
       }
       p{
@@ -33,6 +36,7 @@
       }
 
       .buttons{
+        
         text-align: center;
         padding: 1rem;
 
