@@ -1,6 +1,6 @@
 import {observer, hiddenElementsLeft, hiddenElementsRight} from './modules/Animations.js'
 import {toggleMenuOpen, toggleMenuRemove, responsiveMenuBtn, navBarLinks} from './modules/MenuButton.js'
-import {typeString, typewriter, intervalId} from './modules/Typewriter.js'
+import {typeString, typewriterEl, intervalId} from './modules/typewriter.js'
 
 //using intersection observer to trigger animations
 hiddenElementsLeft.forEach((el) => observer.observe(el))

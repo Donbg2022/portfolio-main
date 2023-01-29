@@ -38,8 +38,9 @@ body {
 }
 .nav .logo span {
   color: white;
+  min-width: 500px;
 }
-.nav .logo #first-name {
+.nav .logo #name {
   font-weight: 600;
 }
 .nav .logo #last-name {

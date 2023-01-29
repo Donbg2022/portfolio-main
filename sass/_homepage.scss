@@ -22,11 +22,12 @@ body{
     font-size: x-large;
     span{
       color: white;
-
+      min-width: 500px;
     }
 
-    #first-name{
+    #name{
       font-weight: 600;
+      
     }
 
     #last-name{

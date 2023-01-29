@@ -1,13 +1,13 @@
-//typewriter affect
+//typewriterEl affect
 
-const typewriter = document.querySelector('.homepage-text h1');
-const typeString = '<Developer />'
+const typewriterEl = document.querySelector('#name');
+const typeString = 'DONOVANB-G'
 
 let count = 0
 
 // setinterval to add letter to html until count === length of string
 const intervalId = setInterval(function() {
-  typewriter.innerHTML += typeString[count]
+  typewriterEl.innerHTML += typeString[count]
   count++
 
   if(count === typeString.length){
@@ -16,4 +16,4 @@ const intervalId = setInterval(function() {
 
 }, 100)
 
-export {typeString, typewriter, intervalId}
+export {typeString, typewriterEl, intervalId}
