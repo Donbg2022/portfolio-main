@@ -331,10 +331,13 @@ body {
     flex-direction: row;
     max-width: 1000px;
   }
-  .projects-list .project-text-wrapper {
+  .projects-list .project-wrapper .project-text-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+  }
+  .projects-list .project-wrapper .project-text-wrapper .buttons {
+    text-align: left;
   }
   .skill-cards {
     -moz-column-count: 4;
