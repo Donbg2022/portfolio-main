@@ -1,18 +1,28 @@
 
 .skill-cards{
-  
-  
-
-  .skills-wrapper{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+  
+  .skills-wrapper{
+    display: flex;
     align-items: center;
+    flex-direction: column;
+
     img{
       width: 150px;
       justify-content: start;
     }
     p{
       text-align: center;
+      padding: 1rem 0 2rem 0;
     }
+  }
+}
+
+.skill-4{
+  justify-content: space-between;
+  p{
+    
   }
 }

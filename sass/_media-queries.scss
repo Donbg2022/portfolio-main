@@ -108,9 +108,10 @@
   //skills
 
   .skill-cards{
-    column-count: 4;
-  }
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }  
   //contact
 
   .contact{
