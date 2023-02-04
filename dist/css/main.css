@@ -224,7 +224,8 @@ body {
   justify-content: space-between;
 }
 .about-wrapper .about-text {
-  padding: 1rem 1rem 1rem 0;
+  padding: 2rem;
+  background-color: white;
 }
 .about-wrapper .about-text h1 {
   padding-bottom: 2rem;
