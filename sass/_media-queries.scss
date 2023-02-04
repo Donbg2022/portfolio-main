@@ -144,11 +144,12 @@
     .about-wrapper{
       display: flex;
       justify-content: center;
-      background-color: rgb(255, 255, 255);
+      background-color: $third-color;
       width: 60rem;
       margin: auto;
       .about-text{
         padding: 4.5rem 1rem;
+        background-color: transparent;
 
       }
 

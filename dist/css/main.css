@@ -15,7 +15,7 @@ html {
 }
 
 body {
-  background-color: lightgray;
+  background-color: #ffffff;
 }
 
 .hero {
@@ -120,7 +120,7 @@ body {
 
 .projects-list .project-wrapper {
   text-align: center;
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(12, 6, 77, 0.048);
   width: 90vw;
   margin: 1rem auto;
   display: flex;
@@ -204,7 +204,7 @@ body {
   justify-content: center;
   margin: 0 10%;
   padding: 10% 0;
-  background-color: white;
+  background-color: rgba(12, 6, 77, 0.048);
 }
 .skill-cards .skills-wrapper {
   display: flex;
@@ -225,7 +225,7 @@ body {
 }
 .about-wrapper .about-text {
   padding: 2rem;
-  background-color: white;
+  background-color: rgba(12, 6, 77, 0.048);
 }
 .about-wrapper .about-text h1 {
   padding-bottom: 2rem;
@@ -396,12 +396,13 @@ body {
   .about-wrapper {
     display: flex;
     justify-content: center;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(12, 6, 77, 0.048);
     width: 60rem;
     margin: auto;
   }
   .about-wrapper .about-text {
     padding: 4.5rem 1rem;
+    background-color: transparent;
   }
   .about-wrapper .about-image {
     margin-right: 0;
