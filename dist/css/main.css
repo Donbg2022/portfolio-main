@@ -147,7 +147,7 @@ body {
 }
 .projects-list .project-wrapper .project-text-wrapper .buttons button {
   border: none;
-  background-color: rgb(11, 12, 67);
+  background-color: #9CAF88;
   padding: 0.25rem 0.5rem;
   font-size: large;
   font-weight: 600;
@@ -243,7 +243,7 @@ body {
 }
 
 .contact-info-wrapper {
-  background-color: rgb(11, 12, 67);
+  background-color: #9CAF88;
   padding: 5rem 1rem;
   min-height: 250px;
 }
@@ -294,7 +294,7 @@ body {
 .contact-form form .contact-button button {
   min-width: 250px;
   padding: 0.5rem;
-  background-color: rgb(11, 12, 67);
+  background-color: #9CAF88;
   color: white;
   border: none;
 }
