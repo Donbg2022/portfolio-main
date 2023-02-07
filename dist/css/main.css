@@ -37,7 +37,7 @@ body {
   font-size: x-large;
 }
 .nav .logo span {
-  color: white;
+  color: #9CAF88;
   min-width: 500px;
 }
 .nav .logo #name {
@@ -87,10 +87,10 @@ body {
   padding: 0.5rem;
 }
 .nav-links ul li:hover {
-  background-color: #236eba;
+  background-color: gray;
 }
 .nav-links ul li a {
-  color: #ffffff;
+  color: #9CAF88;
   text-decoration: none;
   font-size: x-large;
   display: block;
@@ -99,18 +99,6 @@ body {
   display: block;
 }
 
-.homepage-text {
-  text-align: center;
-  min-height: 65px;
-  margin: 8rem auto 8rem auto;
-}
-.homepage-text h1 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 100;
-  font-size: 50px;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.281);
-}
 .homepage h3 {
   color: black;
   position: absolute;
@@ -235,6 +223,7 @@ body {
   padding-bottom: 1rem;
 }
 .about-wrapper .about-image img {
+  width: 100vw;
   max-width: 425px;
 }
 
@@ -259,10 +248,6 @@ body {
   font-weight: 900;
 }
 
-.contact-form {
-  margin-top: -80px;
-  padding-bottom: 20px;
-}
 .contact-form form {
   background-color: white;
   min-height: 400px;
@@ -284,10 +269,6 @@ body {
   min-width: 250px;
 }
 .contact-form form div input::-moz-placeholder, .contact-form form div textarea::-moz-placeholder {
-  color: black;
-  font-weight: 900;
-}
-.contact-form form div input:-ms-input-placeholder, .contact-form form div textarea:-ms-input-placeholder {
   color: black;
   font-weight: 900;
 }
@@ -388,9 +369,10 @@ body {
   }
   .contact-form {
     min-width: 50%;
+    outline: 1px solid red;
   }
-  .contact-form form:nth-child(1) {
-    padding-top: 15%;
+  .contact-form form {
+    padding-top: 1px;
   }
 }
 @media (min-width: 1024px) {

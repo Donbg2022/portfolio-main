@@ -122,11 +122,10 @@
   }
   .contact-form{
     min-width: 50%;
+    outline: 1px solid red;
 
     form{
-      &:nth-child(1){
-        padding-top: 15%;
-      }
+    padding-top: 1px;
     }
   }
 }
