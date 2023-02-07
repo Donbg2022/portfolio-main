@@ -259,6 +259,10 @@ body {
   font-weight: 900;
 }
 
+.contact-form {
+  margin-top: -80px;
+  padding-bottom: 20px;
+}
 .contact-form form {
   background-color: white;
   min-height: 400px;
