@@ -297,12 +297,6 @@ body {
   .homepage-text h1 {
     font-size: 66px;
   }
-  .project-wrapper {
-    max-width: 300px;
-  }
-  .project-wrapper img {
-    max-width: 300px;
-  }
   .skill-cards {
     -moz-column-count: 2;
          column-count: 2;
@@ -343,10 +337,17 @@ body {
   .hero {
     height: 85vh;
   }
+  .projects-list .project-wrapper:nth-child(1) {
+    margin-top: 0;
+  }
   .projects-list .project-wrapper {
+    margin: 25rem auto;
     display: flex;
     flex-direction: row;
     max-width: 1000px;
+  }
+  .projects-list .project-wrapper img {
+    width: 500px;
   }
   .projects-list .project-wrapper .project-text-wrapper {
     display: flex;
@@ -369,7 +370,6 @@ body {
   }
   .contact-form {
     min-width: 50%;
-    outline: 1px solid red;
   }
   .contact-form form {
     padding-top: 1px;
