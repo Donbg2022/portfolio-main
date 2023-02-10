@@ -9,7 +9,7 @@ body{
   flex-direction: column;
   top: 10px;
   left: 10px;
-  
+  position:static;
   .logo{
     font-family: 'Montserrat', sans-serif;
     padding: .75rem;
@@ -69,7 +69,7 @@ body{
 
   &-links{
     display: none;
-    background-color: rgba(0, 0, 0, 0.771);
+    background-color: white;
 
 
     ul{
