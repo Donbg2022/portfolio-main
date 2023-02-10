@@ -1,7 +1,7 @@
 
 
 body{
-  background-color: lightgray;
+  background-color: $secondary-color;
 }
 
 .hero{
@@ -21,7 +21,7 @@ body{
     padding: .75rem;
     font-size: x-large;
     span{
-      color: white;
+      color: $primary-color;
       min-width: 500px;
     }
 
@@ -81,19 +81,21 @@ body{
       flex-direction: column;
       text-align: center;
       
+      
       li{
         list-style-type: none;
         padding: .5rem;
+        
 
         &:hover{
-          background-color: #236eba;
+          background-color: gray;
+
         }
         a{
-          color: $secondary-color;
+          color: $primary-color;
           text-decoration: none;
           font-size: x-large;
           display: block;
-
         }
       }
     }
@@ -103,28 +105,9 @@ body{
     display: block;
     
   }
-
-
- 
 }
 
 .homepage{
-
-  &-text {
-    text-align: center;
-    min-height: 65px;
-    margin: 8rem auto 8rem auto;
-    
-    h1{
-      font-family: 'Roboto', sans-serif;
-      font-weight: 100;
-      font-size: 50px;
-      color:white;
-      background-color: rgba(0, 0, 0, 0.281);
-
-    }
-  }
-
   h3{
     color: black;
     position: absolute;

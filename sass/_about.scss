@@ -1,7 +1,7 @@
 .about-wrapper{
   .about-text{
     padding: 2rem;
-    background-color: white;
+    background-color: $third-color;
     h1{
       padding-bottom: 2rem;
       font-size: xx-large;
@@ -14,6 +14,7 @@
   
   .about-image{
     img{
+      width: 100vw;
       max-width: 425px;
     }
   }

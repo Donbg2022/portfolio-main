@@ -15,7 +15,7 @@ html {
 }
 
 body {
-  background-color: lightgray;
+  background-color: #ffffff;
 }
 
 .hero {
@@ -37,7 +37,7 @@ body {
   font-size: x-large;
 }
 .nav .logo span {
-  color: white;
+  color: #9CAF88;
   min-width: 500px;
 }
 .nav .logo #name {
@@ -87,10 +87,10 @@ body {
   padding: 0.5rem;
 }
 .nav-links ul li:hover {
-  background-color: #236eba;
+  background-color: gray;
 }
 .nav-links ul li a {
-  color: #ffffff;
+  color: #9CAF88;
   text-decoration: none;
   font-size: x-large;
   display: block;
@@ -99,18 +99,6 @@ body {
   display: block;
 }
 
-.homepage-text {
-  text-align: center;
-  min-height: 65px;
-  margin: 8rem auto 8rem auto;
-}
-.homepage-text h1 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 100;
-  font-size: 50px;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.281);
-}
 .homepage h3 {
   color: black;
   position: absolute;
@@ -120,7 +108,7 @@ body {
 
 .projects-list .project-wrapper {
   text-align: center;
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(12, 6, 77, 0.048);
   width: 90vw;
   margin: 1rem auto;
   display: flex;
@@ -147,7 +135,7 @@ body {
 }
 .projects-list .project-wrapper .project-text-wrapper .buttons button {
   border: none;
-  background-color: rgb(11, 12, 67);
+  background-color: #9CAF88;
   padding: 0.25rem 0.5rem;
   font-size: large;
   font-weight: 600;
@@ -204,7 +192,7 @@ body {
   justify-content: center;
   margin: 0 10%;
   padding: 10% 0;
-  background-color: white;
+  background-color: rgba(12, 6, 77, 0.048);
 }
 .skill-cards .skills-wrapper {
   display: flex;
@@ -225,7 +213,7 @@ body {
 }
 .about-wrapper .about-text {
   padding: 2rem;
-  background-color: white;
+  background-color: rgba(12, 6, 77, 0.048);
 }
 .about-wrapper .about-text h1 {
   padding-bottom: 2rem;
@@ -235,6 +223,7 @@ body {
   padding-bottom: 1rem;
 }
 .about-wrapper .about-image img {
+  width: 100vw;
   max-width: 425px;
 }
 
@@ -243,7 +232,7 @@ body {
 }
 
 .contact-info-wrapper {
-  background-color: rgb(11, 12, 67);
+  background-color: #9CAF88;
   padding: 5rem 1rem;
   min-height: 250px;
 }
@@ -283,10 +272,6 @@ body {
   color: black;
   font-weight: 900;
 }
-.contact-form form div input:-ms-input-placeholder, .contact-form form div textarea:-ms-input-placeholder {
-  color: black;
-  font-weight: 900;
-}
 .contact-form form div input::placeholder, .contact-form form div textarea::placeholder {
   color: black;
   font-weight: 900;
@@ -294,7 +279,7 @@ body {
 .contact-form form .contact-button button {
   min-width: 250px;
   padding: 0.5rem;
-  background-color: rgb(11, 12, 67);
+  background-color: #9CAF88;
   color: white;
   border: none;
 }
@@ -384,9 +369,10 @@ body {
   }
   .contact-form {
     min-width: 50%;
+    outline: 1px solid red;
   }
-  .contact-form form:nth-child(1) {
-    padding-top: 15%;
+  .contact-form form {
+    padding-top: 1px;
   }
 }
 @media (min-width: 1024px) {
@@ -396,12 +382,13 @@ body {
   .about-wrapper {
     display: flex;
     justify-content: center;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(12, 6, 77, 0.048);
     width: 60rem;
     margin: auto;
   }
   .about-wrapper .about-text {
     padding: 4.5rem 1rem;
+    background-color: transparent;
   }
   .about-wrapper .about-image {
     margin-right: 0;
