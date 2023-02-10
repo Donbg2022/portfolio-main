@@ -18,18 +18,11 @@ body {
   background-color: #ffffff;
 }
 
-.hero {
-  background-image: url("../../images/laptopDesk.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 70vh;
-  width: 100%;
-}
-
 .nav {
   display: flex;
   flex-direction: column;
+  top: 10px;
+  left: 10px;
 }
 .nav .logo {
   font-family: "Montserrat", sans-serif;
@@ -57,9 +50,9 @@ body {
 }
 .nav button i {
   font-size: x-large;
-  color: #ffffff;
+  color: #9CAF88;
   position: absolute;
-  top: 0.75rem;
+  top: 1rem;
   right: 0.75rem;
 }
 .nav button .toggle-open {
@@ -337,6 +330,9 @@ body {
   .hero {
     height: 85vh;
   }
+  .projects {
+    margin-top: 6rem;
+  }
   .projects-list .project-wrapper:nth-child(1) {
     margin-top: 0;
   }
@@ -401,4 +397,19 @@ body {
   text-align: center;
   font-size: x-large;
   padding: 5rem 0;
+}
+
+.video-container {
+  height: 100vh;
+  width: 100vw;
+}
+
+.video-container video {
+  z-index: -1;
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }/*# sourceMappingURL=main.css.map */
