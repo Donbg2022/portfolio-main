@@ -21,13 +21,16 @@ body {
 .nav {
   display: flex;
   flex-direction: column;
-  top: 10px;
-  left: 10px;
-  position: static;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  z-index: 5;
 }
 .nav .logo {
   font-family: "Montserrat", sans-serif;
   padding: 0.75rem;
+  margin-left: 1rem;
   font-size: x-large;
 }
 .nav .logo span {
@@ -98,6 +101,26 @@ body {
   position: absolute;
   top: 54%;
   left: 16%;
+}
+
+.video-container {
+  height: 100vh;
+  width: 100vw;
+  overflow: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.video-container video {
+  z-index: -1;
+  position: absolute;
+  min-width: 100vw;
+  min-height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .projects-list .project-wrapper {
@@ -332,13 +355,13 @@ body {
     height: 85vh;
   }
   .projects {
-    margin-top: 6rem;
+    margin-top: 8rem;
   }
   .projects-list .project-wrapper:nth-child(1) {
     margin-top: 0;
   }
   .projects-list .project-wrapper {
-    margin: 25rem auto;
+    margin: 10rem auto;
     display: flex;
     flex-direction: row;
     max-width: 1000px;
@@ -398,24 +421,4 @@ body {
   text-align: center;
   font-size: x-large;
   padding: 5rem 0;
-}
-
-.video-container {
-  height: 100vh;
-  width: 100vw;
-  overflow: auto;
-  overflow: hidden;
-  position: relative;
-}
-
-.video-container video {
-  z-index: -1;
-  position: absolute;
-  min-width: 100vw;
-  min-height: 100vh;
-  -o-object-fit: cover;
-     object-fit: cover;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }/*# sourceMappingURL=main.css.map */
