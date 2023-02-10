@@ -99,10 +99,6 @@ body {
   left: 16%;
 }
 
-.projects {
-  margin-top: 100vh;
-}
-
 .projects-list .project-wrapper {
   text-align: center;
   background-color: rgba(12, 6, 77, 0.048);
@@ -333,6 +329,9 @@ body {
   }
   .hero {
     height: 85vh;
+  }
+  .projects {
+    margin-top: 6rem;
   }
   .projects-list .project-wrapper:nth-child(1) {
     margin-top: 0;
