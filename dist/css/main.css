@@ -70,7 +70,7 @@ body {
 }
 .nav-links {
   display: none;
-  background-color: rgba(0, 0, 0, 0.771);
+  background-color: white;
 }
 .nav-links ul {
   flex-direction: column;
