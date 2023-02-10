@@ -4,18 +4,13 @@ body{
   background-color: $secondary-color;
 }
 
-.hero{
-  background-image: url('../../images/laptopDesk.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 70vh;
-  width: 100%;
-}
-
 .nav{
   display: flex;
   flex-direction: column;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  
   .logo{
     font-family: 'Montserrat', sans-serif;
     padding: .75rem;
@@ -46,6 +41,7 @@ body{
     position: absolute;
     top: 0;
     right: 0;
+    outline: 1px solid red;
 
     i{
       font-size: x-large;
@@ -76,6 +72,7 @@ body{
   &-links{
     display: none;
     background-color: rgba(0, 0, 0, 0.771);
+
 
     ul{
       flex-direction: column;
