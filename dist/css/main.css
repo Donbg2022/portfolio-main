@@ -333,13 +333,13 @@ body {
     height: 85vh;
   }
   .projects {
-    margin-top: 6rem;
+    margin-top: 8rem;
   }
   .projects-list .project-wrapper:nth-child(1) {
     margin-top: 0;
   }
   .projects-list .project-wrapper {
-    margin: 25rem auto;
+    margin: 10rem auto;
     display: flex;
     flex-direction: row;
     max-width: 1000px;
