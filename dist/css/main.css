@@ -28,6 +28,7 @@ body {
 .nav .logo {
   font-family: "Montserrat", sans-serif;
   padding: 0.75rem;
+  margin-left: 1rem;
   font-size: x-large;
 }
 .nav .logo span {
