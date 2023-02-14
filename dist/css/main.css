@@ -73,7 +73,7 @@ body {
 }
 .nav-links {
   display: none;
-  background-color: white;
+  background-color: rgba(156, 175, 136, 0.337254902);
 }
 .nav-links ul {
   flex-direction: column;
@@ -84,10 +84,10 @@ body {
   padding: 0.5rem;
 }
 .nav-links ul li:hover {
-  background-color: gray;
+  background-color: rgba(128, 128, 128, 0.525);
 }
 .nav-links ul li a {
-  color: #9CAF88;
+  color: white;
   text-decoration: none;
   font-size: x-large;
   display: block;
@@ -378,6 +378,8 @@ body {
     text-align: left;
   }
   .skill-cards {
+    width: 98vw;
+    margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -398,6 +400,10 @@ body {
 @media (min-width: 1024px) {
   .hero {
     height: 100vh;
+  }
+  .skill-cards {
+    margin: auto;
+    width: 80%;
   }
   .about-wrapper {
     display: flex;
