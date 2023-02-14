@@ -11,3 +11,20 @@ hiddenElementsRight.forEach((el) => observer.observe(el))
 //functions located in MenuButton module
 responsiveMenuBtn.addEventListener('click', toggleMenuOpen)
 navBarLinks.addEventListener('click', toggleMenuRemove)
+
+
+const video = document.querySelectorAll('video')
+
+const vidPlaying = () => {
+  let fired = false
+  for (let i = 0; i < video.length; i++) {
+    if (video[i].paused && fired === false){
+      video[i].play()
+      fired = true
+  }else {
+    console.log('playing')
+  }
+  }
+  
+}
+window.addEventListener('scroll', () => vidPlaying())
