@@ -10,3 +10,11 @@
   padding: 5rem 0;
 }
 
+*::-webkit-media-controls-start-playback-button {
+  display: none!important;
+  -webkit-appearance: none;
+}
+
+video::-webkit-media-controls {
+  display:none !important;
+}
