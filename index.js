@@ -16,13 +16,12 @@ navBarLinks.addEventListener('click', toggleMenuRemove)
 const video = document.querySelectorAll('video')
 
 const vidPlaying = () => {
-  let fired = 0
   for (let i = 0; i < video.length; i++) {
-    if (video[i].suspend){
-      video[i].play()
+    if (video[i].paused){
+      video[i].removeAttribute('autoplay')
       
     }
   }
   
 }
-window.addEventListener('touchstart', () => vidPlaying())
+window.addEventListener('load', () => vidPlaying())
