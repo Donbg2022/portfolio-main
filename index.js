@@ -25,4 +25,4 @@ const vidPlaying = () => {
   }
   
 }
-window.addEventListener('scroll', () => vidPlaying())
+window.addEventListener('touchstart', () => vidPlaying())
