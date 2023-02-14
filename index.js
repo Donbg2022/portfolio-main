@@ -15,16 +15,13 @@ navBarLinks.addEventListener('click', toggleMenuRemove)
 
 const video = document.querySelectorAll('video')
 
-const vidPlaying = () => {
-  let fired = 0
-  for (let i = 0; i < video.length; i++) {
-    if (video[i].paused && fired < 4){
-      video[i].play()
-      fired++
-  }else {
-    console.log('playing')
-  }
-  }
+// const vidPlaying = () => {
+//   let fired = 0
+//   for (let i = 0; i < video.length; i++) {
+//     if (video[i].suspend){
+      
+//     }
+//   }
   
-}
-window.addEventListener('scroll', () => vidPlaying())
+// }
+// window.addEventListener('scroll', () => vidPlaying())
