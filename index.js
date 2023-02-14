@@ -12,16 +12,3 @@ hiddenElementsRight.forEach((el) => observer.observe(el))
 responsiveMenuBtn.addEventListener('click', toggleMenuOpen)
 navBarLinks.addEventListener('click', toggleMenuRemove)
 
-
-const video = document.querySelectorAll('video')
-
-const vidPlaying = () => {
-  for (let i = 0; i < video.length; i++) {
-    if (video[i].paused){
-      video[i].removeAttribute('autoplay')
-      
-    }
-  }
-  
-}
-window.addEventListener('load', () => vidPlaying())
