@@ -21,6 +21,16 @@
     .project-text-wrapper{
       text-align: left;
 
+      .project-text ul li{
+        list-style: none;
+        padding-left: 1rem;
+      }
+      .project-text p span{
+        color: $primary-color;
+        font-size: larger;
+        font-weight: bolder;
+      }
+
       h3{
         color: black;
         padding: 1rem;

@@ -137,6 +137,15 @@ body {
 .projects-list .project-wrapper .project-text-wrapper {
   text-align: left;
 }
+.projects-list .project-wrapper .project-text-wrapper .project-text ul li {
+  list-style: none;
+  padding-left: 1rem;
+}
+.projects-list .project-wrapper .project-text-wrapper .project-text p span {
+  color: #9CAF88;
+  font-size: larger;
+  font-weight: bolder;
+}
 .projects-list .project-wrapper .project-text-wrapper h3 {
   color: black;
   padding: 1rem;
