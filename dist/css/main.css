@@ -114,8 +114,7 @@ body {
 .video-container video {
   z-index: -1;
   position: absolute;
-  min-width: 100vw;
-  min-height: 100vh;
+  height: 100vh;
   -o-object-fit: cover;
      object-fit: cover;
   top: 50%;
@@ -136,6 +135,18 @@ body {
 }
 .projects-list .project-wrapper .project-text-wrapper {
   text-align: left;
+}
+.projects-list .project-wrapper .project-text-wrapper .project-text ul li {
+  list-style: none;
+  padding-left: 1rem;
+}
+.projects-list .project-wrapper .project-text-wrapper .project-text p span {
+  color: #9CAF88;
+  font-size: larger;
+  font-weight: bolder;
+}
+.projects-list .project-wrapper .project-text-wrapper .project-text ul {
+  padding-top: 2rem;
 }
 .projects-list .project-wrapper .project-text-wrapper h3 {
   color: black;
@@ -333,6 +344,10 @@ body {
   }
 }
 @media (min-width: 768px) {
+  .video-container video {
+    min-width: 100vw;
+    min-height: 100vh;
+  }
   .homepage-text {
     margin-top: 10rem;
   }
@@ -348,6 +363,9 @@ body {
     display: flex;
     flex-direction: row;
   }
+  .nav-links ul li a {
+    color: #9CAF88;
+  }
   .responsive-menu-btn {
     display: none;
   }
@@ -357,25 +375,11 @@ body {
   .projects {
     margin-top: 8rem;
   }
-  .projects-list .project-wrapper:nth-child(1) {
-    margin-top: 0;
+  .project-wrapper {
+    max-width: 530px;
   }
-  .projects-list .project-wrapper {
-    margin: 10rem auto;
-    display: flex;
-    flex-direction: row;
-    max-width: 1000px;
-  }
-  .projects-list .project-wrapper img, .projects-list .project-wrapper video {
-    width: 500px;
-  }
-  .projects-list .project-wrapper .project-text-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  .projects-list .project-wrapper .project-text-wrapper .buttons {
-    text-align: left;
+  .project-wrapper video {
+    max-width: 530px;
   }
   .skill-cards {
     width: 98vw;
@@ -401,6 +405,29 @@ body {
   .hero {
     height: 100vh;
   }
+  .projects {
+    margin-top: 8rem;
+  }
+  .projects-list .project-wrapper:nth-child(1) {
+    margin-top: 0;
+  }
+  .projects-list .project-wrapper {
+    margin: 10rem auto;
+    display: flex;
+    flex-direction: row;
+    max-width: 1000px;
+  }
+  .projects-list .project-wrapper img, .projects-list .project-wrapper video {
+    width: 500px;
+  }
+  .projects-list .project-wrapper .project-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .projects-list .project-wrapper .project-text-wrapper .buttons {
+    text-align: left;
+  }
   .skill-cards {
     margin: auto;
     width: 80%;
@@ -421,6 +448,11 @@ body {
   }
   .about-wrapper .about-image img, .about-wrapper .about-image video {
     height: 100%;
+  }
+}
+@media (min-width: 1440px) {
+  .nav {
+    background-color: rgba(0, 0, 0, 0.697);
   }
 }
 .sub-title {

@@ -128,8 +128,9 @@ body{
 .video-container video{
   z-index: -1;
   position: absolute;
-  min-width: 100vw;
-  min-height: 100vh;
+  // min-width: 100vw;
+  // min-height: 100vh;
+  height: 100vh;
   object-fit: cover;
   top: 50%;
   left: 50%;
