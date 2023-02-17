@@ -113,6 +113,8 @@
   //skills
 
   .skill-cards{
+    width: 98vw;
+    margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -141,6 +143,14 @@
       height: 100vh;
     }
 
+
+    //skills
+
+    .skill-cards{
+      margin: auto;
+      width: 80%;
+     
+    }
     
     //about
 

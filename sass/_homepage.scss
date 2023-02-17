@@ -72,7 +72,7 @@ body{
 
   &-links{
     display: none;
-    background-color: white;
+    background-color: #9caf8856;
 
 
     ul{
@@ -86,11 +86,11 @@ body{
         
 
         &:hover{
-          background-color: gray;
+          background-color: rgba(128, 128, 128, 0.525);
 
         }
         a{
-          color: $primary-color;
+          color: white;
           text-decoration: none;
           font-size: x-large;
           display: block;
