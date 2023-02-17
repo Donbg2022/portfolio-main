@@ -63,6 +63,10 @@
     ul{
     display: flex;
     flex-direction: row;
+    
+    & li a {
+          color: $primary-color;
+    }
     }
 
   }

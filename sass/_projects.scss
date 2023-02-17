@@ -21,6 +21,7 @@
     .project-text-wrapper{
       text-align: left;
 
+
       .project-text ul li{
         list-style: none;
         padding-left: 1rem;
@@ -29,6 +30,9 @@
         color: $primary-color;
         font-size: larger;
         font-weight: bolder;
+      }
+      .project-text ul{
+        padding-top: 2rem;
       }
 
       h3{

@@ -146,6 +146,9 @@ body {
   font-size: larger;
   font-weight: bolder;
 }
+.projects-list .project-wrapper .project-text-wrapper .project-text ul {
+  padding-top: 2rem;
+}
 .projects-list .project-wrapper .project-text-wrapper h3 {
   color: black;
   padding: 1rem;
@@ -356,6 +359,9 @@ body {
   .nav-links ul {
     display: flex;
     flex-direction: row;
+  }
+  .nav-links ul li a {
+    color: #9CAF88;
   }
   .responsive-menu-btn {
     display: none;
