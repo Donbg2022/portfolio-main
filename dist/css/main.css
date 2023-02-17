@@ -372,25 +372,11 @@ body {
   .projects {
     margin-top: 8rem;
   }
-  .projects-list .project-wrapper:nth-child(1) {
-    margin-top: 0;
+  video {
+    max-width: 530px;
   }
-  .projects-list .project-wrapper {
-    margin: 10rem auto;
-    display: flex;
-    flex-direction: row;
-    max-width: 1000px;
-  }
-  .projects-list .project-wrapper img, .projects-list .project-wrapper video {
-    width: 500px;
-  }
-  .projects-list .project-wrapper .project-text-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  .projects-list .project-wrapper .project-text-wrapper .buttons {
-    text-align: left;
+  .project-wrapper {
+    max-width: 530px;
   }
   .skill-cards {
     width: 98vw;
@@ -415,6 +401,29 @@ body {
 @media (min-width: 1024px) {
   .hero {
     height: 100vh;
+  }
+  .projects {
+    margin-top: 8rem;
+  }
+  .projects-list .project-wrapper:nth-child(1) {
+    margin-top: 0;
+  }
+  .projects-list .project-wrapper {
+    margin: 10rem auto;
+    display: flex;
+    flex-direction: row;
+    max-width: 1000px;
+  }
+  .projects-list .project-wrapper img, .projects-list .project-wrapper video {
+    width: 500px;
+  }
+  .projects-list .project-wrapper .project-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .projects-list .project-wrapper .project-text-wrapper .buttons {
+    text-align: left;
   }
   .skill-cards {
     margin: auto;
