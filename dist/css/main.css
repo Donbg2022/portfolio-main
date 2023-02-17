@@ -421,13 +421,4 @@ body {
   text-align: center;
   font-size: x-large;
   padding: 5rem 0;
-}
-
-*::-webkit-media-controls-start-playback-button {
-  display: none !important;
-  -webkit-appearance: none;
-}
-
-video::-webkit-media-controls {
-  display: none !important;
 }/*# sourceMappingURL=main.css.map */
