@@ -48,6 +48,13 @@
 
 @media (min-width: $tablet){
   //homepage
+
+  .video-container video{
+
+    min-width: 100vw;
+    min-height: 100vh;
+   
+  }
   .homepage{
     &-text{
       margin-top: 10rem;
@@ -87,11 +94,13 @@
     margin-top: 8rem;
   }
 
-  video{
-    max-width: 530px;
-  }
+  
   .project-wrapper{
     max-width: 530px;
+    
+    video{
+    max-width: 530px;
+  }
   }
 
   //skills
@@ -192,4 +201,12 @@
       }
     }
     }
+  }
+
+
+  @media (min-width: $laptopLarge) {
+    .nav{
+      background-color: rgba(0, 0, 0, 0.697);
+        
+      }
   }

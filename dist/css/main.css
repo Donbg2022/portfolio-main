@@ -114,8 +114,7 @@ body {
 .video-container video {
   z-index: -1;
   position: absolute;
-  min-width: 100vw;
-  min-height: 100vh;
+  height: 100vh;
   -o-object-fit: cover;
      object-fit: cover;
   top: 50%;
@@ -345,6 +344,10 @@ body {
   }
 }
 @media (min-width: 768px) {
+  .video-container video {
+    min-width: 100vw;
+    min-height: 100vh;
+  }
   .homepage-text {
     margin-top: 10rem;
   }
@@ -372,10 +375,10 @@ body {
   .projects {
     margin-top: 8rem;
   }
-  video {
+  .project-wrapper {
     max-width: 530px;
   }
-  .project-wrapper {
+  .project-wrapper video {
     max-width: 530px;
   }
   .skill-cards {
@@ -445,6 +448,11 @@ body {
   }
   .about-wrapper .about-image img, .about-wrapper .about-image video {
     height: 100%;
+  }
+}
+@media (min-width: 1440px) {
+  .nav {
+    background-color: rgba(0, 0, 0, 0.697);
   }
 }
 .sub-title {
