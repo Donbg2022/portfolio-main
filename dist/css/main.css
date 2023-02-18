@@ -71,9 +71,12 @@ body {
 .nav button.open .toggle-close {
   display: block;
 }
+.nav .links-bg-color {
+  background-color: rgba(0, 0, 0, 0.8823529412);
+}
 .nav-links {
   display: none;
-  background-color: rgba(156, 175, 136, 0.337254902);
+  background-color: rgba(0, 0, 0, 0.8823529412);
 }
 .nav-links ul {
   flex-direction: column;
@@ -87,13 +90,17 @@ body {
   background-color: rgba(128, 128, 128, 0.525);
 }
 .nav-links ul li a {
-  color: white;
+  color: #9CAF88;
   text-decoration: none;
   font-size: x-large;
   display: block;
 }
 .nav-links.open {
   display: block;
+}
+
+.links-bg-color {
+  background-color: rgba(0, 0, 0, 0.8823529412);
 }
 
 .homepage h3 {
