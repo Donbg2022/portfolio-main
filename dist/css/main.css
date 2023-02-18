@@ -176,10 +176,10 @@ body {
   color: white;
 }
 .projects-list .project-wrapper .project-text-wrapper .buttons button:hover {
-  background-color: rgb(22, 35, 117);
+  background-color: rgb(113, 142, 118);
 }
 .projects-list .project-wrapper .project-text-wrapper .buttons button:active {
-  background-color: rgb(98, 96, 224);
+  background-color: rgb(104, 176, 152);
 }
 
 .hidden-left {
@@ -227,11 +227,13 @@ body {
   margin: 0 10%;
   padding: 10% 0;
   background-color: rgba(12, 6, 77, 0.048);
+  flex-wrap: wrap;
 }
 .skill-cards .skills-wrapper {
   display: flex;
   align-items: center;
   flex-direction: column;
+  padding: 2rem 3rem;
 }
 .skill-cards .skills-wrapper img {
   width: 150px;
@@ -318,10 +320,10 @@ body {
   border: none;
 }
 .contact-form form .contact-button button:hover {
-  background-color: rgb(22, 35, 117);
+  background-color: rgb(113, 142, 118);
 }
 .contact-form form .contact-button button:active {
-  background-color: rgb(98, 96, 224);
+  background-color: rgb(104, 176, 152);
 }
 
 @media (min-width: 425px) {
