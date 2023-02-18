@@ -196,10 +196,19 @@
     .about-image{
       margin-right: 0;
 
+
       img, video{
         height: 100%;
 
       }
     }
-    }
   }
+}
+
+
+@media (min-width: $laptopLarge){
+
+  .about-wrapper{
+    width: 75rem;
+}
+}
