@@ -457,6 +457,11 @@ body {
     height: 100%;
   }
 }
+@media (min-width: 1440px) {
+  .about-wrapper {
+    width: 75rem;
+  }
+}
 .sub-title {
   text-align: center;
   font-size: x-large;
