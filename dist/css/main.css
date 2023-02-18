@@ -76,7 +76,6 @@ body {
 }
 .nav-links {
   display: none;
-  background-color: rgba(0, 0, 0, 0.8823529412);
 }
 .nav-links ul {
   flex-direction: column;
@@ -361,6 +360,7 @@ body {
   .nav {
     flex-direction: row;
     justify-content: space-between;
+    background-color: transparent;
   }
   .nav-links {
     display: flex;
