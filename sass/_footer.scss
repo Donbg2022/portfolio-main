@@ -17,16 +17,25 @@ footer{
   display: flex;
   list-style: none;
   justify-content: center;
+  padding-bottom: 2rem;
 }
-.footer-li:nth-child(1),
-.footer-li:nth-child(2),
-.footer-li:nth-child(3) {
+.footer-a:nth-child(1),
+.footer-a:nth-child(2),
+.footer-a:nth-child(3) {
   border-right: 1px solid $primary-color;
   
 
 }
-.footer-li{
+.footer-a{
   padding: 0 10px;
-  margin-bottom: 2rem;
+  text-decoration: none;
 }
+.footer-a:hover{
+  color: $primary-color;
+}
+
+.footer-a:active{
+  color: $third-color;
+}
+
 
