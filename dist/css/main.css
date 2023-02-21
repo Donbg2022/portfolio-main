@@ -464,6 +464,36 @@ body {
     width: 75rem;
   }
 }
+footer {
+  margin-top: 10rem;
+  background-color: rgba(12, 6, 77, 0.048);
+}
+
+.footer-logo p {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  padding: 2rem;
+  color: #9CAF88;
+}
+
+.footer-ul ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+.footer-li:nth-child(1),
+.footer-li:nth-child(2),
+.footer-li:nth-child(3) {
+  border-right: 1px solid #9CAF88;
+}
+
+.footer-li {
+  padding: 0 10px;
+  margin-bottom: 2rem;
+}
+
 .sub-title {
   text-align: center;
   font-size: x-large;
