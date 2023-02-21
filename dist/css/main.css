@@ -481,17 +481,26 @@ footer {
   display: flex;
   list-style: none;
   justify-content: center;
+  padding-bottom: 2rem;
 }
 
-.footer-li:nth-child(1),
-.footer-li:nth-child(2),
-.footer-li:nth-child(3) {
+.footer-a:nth-child(1),
+.footer-a:nth-child(2),
+.footer-a:nth-child(3) {
   border-right: 1px solid #9CAF88;
 }
 
-.footer-li {
+.footer-a {
   padding: 0 10px;
-  margin-bottom: 2rem;
+  text-decoration: none;
+}
+
+.footer-a:hover {
+  color: #9CAF88;
+}
+
+.footer-a:active {
+  color: rgba(12, 6, 77, 0.048);
 }
 
 .sub-title {
