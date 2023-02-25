@@ -33,6 +33,9 @@ body {
   margin-left: 1rem;
   font-size: x-large;
 }
+.nav .logo #name-link {
+  text-decoration: none;
+}
 .nav .logo span {
   color: #9CAF88;
   min-width: 500px;

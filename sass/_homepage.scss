@@ -17,6 +17,10 @@ body{
     padding: .75rem;
     margin-left: 1rem;
     font-size: x-large;
+    
+    #name-link{
+      text-decoration: none;
+}
     span{
       color: $primary-color;
       min-width: 500px;
