@@ -266,6 +266,11 @@ body {
   max-width: 425px;
 }
 
+.span-color {
+  color: #9CAF88;
+  font-size: larger;
+}
+
 .contact {
   margin-top: 7rem;
 }
